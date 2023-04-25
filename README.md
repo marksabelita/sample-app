@@ -1,6 +1,6 @@
 # Installing and running the application
 
-This project requires Docker to be installed in your local machine to run install and run the Postgres database.
+This project requires Docker to be installed in your local machine to install and run the Postgres database.
 
 Please check the docker installation page to install the docker based on your OS.
 
@@ -10,7 +10,9 @@ https://docs.docker.com/engine/install/
 # Backend Details
 
 The Application is Built using NestJS Framework, Docker.
+
 The Database is using Postgres and TypeORM as ORM.
+
 For API management we are using Swagger. 
 
 Local backend Development: 
@@ -28,6 +30,14 @@ npm install
 ```
 
 After installing make sure to run your local Postgres database or you can use docker to run your local Postgres environment to do so.
+
+Installing Postgres using Docker.
+```
+npm run start:dev:db
+```
+
+Once Database is setup and working we need to run the migration to create tables for the database.
+
 
 Running the Database migration.
 ```
@@ -48,16 +58,19 @@ npm run start
 
 # Frontend Details
 The application is built in NextJS Framework.
+
 State management used is Redux.
+
 Side effect management used is Redux Thunk.
+
 CSS Framework used is Tailwind
+
 
 Local frontend Development: 
 http://localhost:3001
 
 
-
-Installing the  backend application
+Installing the frontend application
 ```
 npm install
 ```
