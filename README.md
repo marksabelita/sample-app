@@ -70,6 +70,7 @@ npm run start
 
 # SAMPLE APP RUNNING ON LOCAL MACHINE
 
-[screen-capture.webm](https://user-images.githubusercontent.com/43874093/234212320-e778cfb4-56b4-417d-b051-69a406407610.webm)
+
+https://user-images.githubusercontent.com/43874093/234219503-015f71dc-1739-48c6-b203-5ea11df08b4b.mp4
 
 
