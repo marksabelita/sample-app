@@ -1,5 +1,3 @@
-```sh
-
 # Installing and running the application
 
 This project requires Docker to be installed in your local machine to run install and run the Postgres database.
@@ -69,4 +67,3 @@ To run the application we can run
 npm run start
 ```
 
-```
